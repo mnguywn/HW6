@@ -42,10 +42,9 @@ function checkIfAmicable() {
     var num1 = readNum1();
     var num2 = readNum2();
     var num1Sum = addFactors(getFactors(num1));
+    var num2Sum = addFactors(getFactors(num2));
     alert("The factors for " + num1 + " are " + getFactors(num1));
     alert("The factors for " + num2 + " are " + getFactors(num2));
-
-    var num2Sum = addFactors(getFactors(num2));
 
     if(num1 == num2) {
         document.getElementById("results").innerHTML = "The numbers " + num1 + " and " + num2 + " are not amicable.";
