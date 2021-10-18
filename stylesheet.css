@@ -1,0 +1,20 @@
+body {
+    background-color:#68876c;
+    font-family:'Courier New', Courier, monospace;
+}
+h1 {
+    text-align: center;
+    color: #f1d68a;
+}
+form {
+    color: 	#FFFFFF;
+}
+p {
+    text-align: center;
+    color: 	#FFFFFF;
+}
+
+#results {
+    font-size: 18px;
+    color: white;
+}
